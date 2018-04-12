@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Pavel Dmitriev](https://up.htmlacademy.ru/adaptive/14/user/431607).
-* Наставник: `Неизвестно`.
+* Наставник: [Влад Слепкан](https://up.htmlacademy.ru/adaptive/14/user/383197).
 
 ---
 
