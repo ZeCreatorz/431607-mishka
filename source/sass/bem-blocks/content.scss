@@ -1,0 +1,36 @@
+.content__title {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+}
+
+.content__text {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.content__button {
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444444;
+
+  border: 2px solid #444444;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: 2px solid #444444;
+    background-color: #444444;
+  }
+
+  &:active {
+    color: #8d8d8d;
+  }
+}

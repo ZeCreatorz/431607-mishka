@@ -1,0 +1,30 @@
+.site-list {
+  list-style: none;
+}
+
+.site-list__item {
+  font-size: $sitelistfontsize;
+  line-height: $sitelistlinehight;
+  font-weight: $sitelistweight;
+
+  color: $black;
+
+  border-bottom: 1px solid #ececec;
+}
+
+.site-list__link {
+  font-size: $sitelistfontsize;
+  line-height: $sitelistlinehight;
+  font-weight: $sitelistweight;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+}

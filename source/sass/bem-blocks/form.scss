@@ -1,0 +1,97 @@
+.form__title {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #231f20;
+}
+
+.form__text {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.form__list {
+  list-style: none;
+}
+
+.form__filter-name {
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #63d1bb;
+}
+
+.form__item-label {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $black;
+}
+
+.filter__input {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  border: none;
+  border-bottom: 2px solid $black;
+
+  &:hover,
+  &:focus {
+    border-color: #62d1ba;
+  }
+}
+
+.form__textarea {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 2px solid $black;
+
+  &:hover,
+  &:focus {
+    border-color: #62d1ba;
+  }
+}
+
+.form__button{
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #444444;
+
+  border: 2px solid #444444;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: 2px solid #444444;
+    background-color: #444444;
+  }
+
+  &:active {
+    color: #8d8d8d;
+  }
+}
+
+.form__name-list {
+  list-style: none;
+}
+
+.form__phone-list {
+  list-style: none;
+}
+
+.form__email-list {
+  list-style: none;
+}
+
+.form__comment-list {
+  list-style: none;
+}

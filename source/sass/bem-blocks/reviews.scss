@@ -1,0 +1,56 @@
+.reviews__title {
+  font-size: $modaltitlesize;
+  line-height: $modallineheight;
+  font-weight: $modalweight;
+
+  color: $black;
+}
+
+.reviews__text {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.reviews__author-name {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+}
+
+.reviews__author-instagram {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.reviews__button {
+  background-color: $white;
+  border: 1px solid #ececec;
+
+}
+
+.reviews__write {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #444444;
+
+  border: 2px solid #444444;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: 2px solid #444444;
+    background-color: #444444;
+  }
+
+  &:active {
+    color: #8d8d8d;
+  }
+}
