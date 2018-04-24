@@ -1,0 +1,50 @@
+.products__list {
+  list-style: none;
+}
+
+.products__link {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $white;
+
+}
+
+.products__link-interior {
+  background-color: $interiorcolor;
+
+  &:active {
+  color: rgba($white, 0.3);
+}
+
+}
+
+.products__link-interior {
+
+  background-color: #59d5bc;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+}
+
+
+.products__link-toys {
+  background-color: $toyscolor;
+
+    &:active {
+  color: rgba($white, 0.3);
+}
+
+}
+
+.products__link-toys {
+
+  background-color: #46c1ae;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+}

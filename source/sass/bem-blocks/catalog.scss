@@ -1,0 +1,42 @@
+.catalog__title {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $black;
+}
+
+.catalog__list {
+  list-style: none;
+}
+
+.catalog__item-link {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+
+.catalog__item-text {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.catalog__item-value {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+}
+

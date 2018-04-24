@@ -1,0 +1,24 @@
+.user-list {
+  list-style: none;
+}
+
+
+.user-list__item {
+  border-bottom: 1px solid #ececec;
+}
+
+.user-list__link {
+  font-size: $sitelistfontsize;
+  line-height: $sitelistlinehight;
+  font-weight: $sitelistweight;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

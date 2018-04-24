@@ -1,0 +1,20 @@
+.about__title {
+  font-size: $modaltitlesize;
+  line-height: $modallineheight;
+  font-weight: $modalweight;
+
+  color: $black;
+
+}
+
+.about__list {
+  list-style: none;
+}
+
+.about__item {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: $modalweight;
+
+  color: $black;
+}
