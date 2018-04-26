@@ -1,15 +1,16 @@
 .form__title {
-  font-size: 27px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #231f20;
+  font-size: $font-twoseven;
+  line-height: $linehthreezero;
+  font-weight: $boldw;
+  color: $formtitlecolor;
+  background-color: $graylighter;
 }
 
 .form__text {
-  font-size: 13px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #444444;
+  font-size: $font-sonethree;
+  line-height: $linehtwofour;
+  font-weight: $regw;
+  color: $darkgray;
 }
 
 .form__list {
@@ -17,66 +18,66 @@
 }
 
 .form__filter-name {
-  font-size: 17px;
-  line-height: 16px;
-  font-weight: 700;
+  font-size: $font-soneseven;
+  line-height: $linehonesix;
+  font-weight: $boldw;
   text-transform: uppercase;
-  color: #63d1bb;
+  color: $interiorcolor;
 }
 
 .form__item-label {
-  font-size: 17px;
-  line-height: 18px;
-  font-weight: 700;
+  font-size: $font-soneseven;
+  line-height: $linehoneeight;
+  font-weight: $boldw;
   color: $black;
 }
 
 .filter__input {
-  font-size: 17px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #444444;
+  font-size: $font-soneseven;
+  line-height: $linehoneeight;
+  font-weight: $regw;
+  color: $darkgray;
   border: none;
-  border-bottom: 2px solid $black;
+  border-bottom: $twopx solid $black;
 
   &:hover,
   &:focus {
-    border-color: #62d1ba;
+    border-color: $borderhovfoc;
   }
 }
 
 .form__textarea {
-  font-size: 17px;
-  line-height: 18px;
-  font-weight: 400;
+  font-size: $font-soneseven;
+  line-height: $linehoneeight;
+  font-weight: $regw;
   box-sizing: border-box;
-  border: 2px solid $black;
+  border: $twopx solid $black;
 
   &:hover,
   &:focus {
-    border-color: #62d1ba;
+    border-color: $borderhovfoc;
   }
 }
 
 .form__button{
-  font-size: 17px;
-  line-height: 16px;
-  font-weight: 700;
-  color: #444444;
+  font-size: $font-soneseven;
+  line-height: $linehonesix;
+  font-weight: $boldw;
+  color: $darkgray;
 
-  border: 2px solid #444444;
+  border: $twopx solid $darkgray;
   background-color: $white;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: 2px solid #444444;
-    background-color: #444444;
+    border: $twopx solid $darkgray;
+    background-color: $darkgray;
   }
 
   &:active {
-    color: #8d8d8d;
+    color: $gray;
   }
 }
 

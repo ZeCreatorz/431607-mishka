@@ -1,46 +1,46 @@
 .contacts__title {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 700;
+  font-size: $font-soneeight;
+  line-height: $linehthreezero;
+  font-weight: $boldw;
 
   color: $black;
 }
 
 .contacts__email {
-  color: #444444;
-  border-bottom: 1px solid #62d1ba;
+  color: $darkgray;
+  border-bottom: $onepx solid $borderhovfoc;
 
   &:hover,
   &:focus {
-    color: #46c1ae;
-    border-bottom: 1px solid #62d1ba;
+    color: $toyshovfocus;
+    border-bottom: $onepx solid $borderhovfoc;
   }
 
   &:active {
-    color: rgba(#46c1ae, 0.3);
-    border-bottom: 1px solid rgba(#46c1ae, 0.3);
+    color: rgba($toyshovfocus, 0.3);
+    border-bottom: $onepx solid rgba($toyshovfocus, 0.3);
   }
 }
 
 .contacts__write {
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
+  font-size: $font-soneeight;
+  line-height: $linehtwozero;
+  font-weight: $boldw;
   text-transform: uppercase;
-  color: #444444;
+  color: $darkgray;
 
-  border: 2px solid #444444;
+  border: $twopx solid $darkgray;
   background-color: $white;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: 2px solid #444444;
-    background-color: #444444;
+    border: $twopx solid $darkgray;
+    background-color: $darkgray;
   }
 
   &:active {
-    color: #8d8d8d;
+    color: $gray;
   }
 }

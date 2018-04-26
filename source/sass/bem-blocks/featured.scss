@@ -1,66 +1,67 @@
 .featured__title {
-  font-size: 25px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #000000;
+  font-size: $font-stwofive;
+  line-height: $linehthreezero;
+  font-weight: $boldw;
+  color: $black;
 }
 
 
 .featured__weekly {
-  font-size: 17px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #63d1bb;
+  font-size: $font-soneseven;
+  line-height: $linehtwozero;
+  font-weight: $boldw;
+  text-transform: uppercase;
+  color: $weekly-color;
 }
 
 .featured__description {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #444444;
+  font-size: $font-sonefive;
+  line-height: $linehtwofour;
+  font-weight: $regw;
+  color: $darkgray;
 }
 
 .featured__value {
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #444444;
+  font-size: $font-soneseven;
+  line-height: $linehtwofour;
+  font-weight: $boldw;
+  color: $darkgray;
 
 }
 
 
 .featured__info {
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 400;
-  color: #444444;
+  font-size: $font-sonefive;
+  line-height: $linehtwozero;
+  font-weight: $regw;
+  color: $darkgray;
 }
 
 .featured__field {
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 400;
-  color: #444444;
+  font-size: $font-sonefive;
+  line-height: $linehtwozero;
+  font-weight: $regw;
+  color: $darkgray;
 }
 
 .featured__order {
-  font-size: 17px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #444444;
+  font-size: $font-soneseven;
+  line-height: $linehtwozero;
+  font-weight: $boldw;
+  color: $darkgray;
 
-  border: 2px solid #444444;
+  border: $twopx solid $darkgray;
   background-color: $white;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: 2px solid #444444;
-    background-color: #444444;
+    border: $twopx solid $darkgray;
+    background-color: $darkgray;
   }
 
   &:active {
-    color: #8d8d8d;
+    color: $gray;
   }
 }

@@ -1,36 +1,36 @@
 .content__title {
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 700;
+  font-size: $font-soneseven;
+  line-height: $linehtwofour;
+  font-weight: $boldw;
   color: $black;
 }
 
 .content__text {
-  font-size: 13px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #444444;
+  font-size: $font-sonethree;
+  line-height: $linehtwofour;
+  font-weight: $regw;
+  color: $darkgray;
 }
 
 .content__button {
-  font-size: 17px;
-  line-height: 16px;
-  font-weight: 700;
+  font-size: $font-soneseven;
+  line-height: $linehonesix;
+  font-weight: $boldw;
   text-transform: uppercase;
-  color: #444444;
+  color: $darkgray;
 
-  border: 2px solid #444444;
+  border: $twopx solid $darkgray;
   background-color: $white;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: 2px solid #444444;
-    background-color: #444444;
+    border: $twopx solid $darkgray;
+    background-color: $darkgray;
   }
 
   &:active {
-    color: #8d8d8d;
+    color: $gray;
   }
 }

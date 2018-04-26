@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: #f1f1f1;
+  background-color: $graylighter;
 }
 
 .social__list {
@@ -8,8 +8,8 @@
 
 
 .copyright__text {
-  font-size: 19px;
-  line-height: 18px;
-  font-weight: 700;
+  font-size: $font-sonenine;
+  line-height: $linehoneeight;
+  font-weight: $boldw;
   color: $black;
 }

@@ -1,7 +1,7 @@
 .about__title {
-  font-size: $modaltitlesize;
-  line-height: $modallineheight;
-  font-weight: $modalweight;
+  font-size: $font-stwofive;
+  line-height: $linehthreezero;
+  font-weight: $boldw;
 
   color: $black;
 
@@ -12,9 +12,9 @@
 }
 
 .about__item {
-  font-size: 17px;
-  line-height: 20px;
-  font-weight: $modalweight;
+  font-size: $font-soneseven;
+  line-height: $linehtwozero;
+  font-weight: $boldw;
 
   color: $black;
 }

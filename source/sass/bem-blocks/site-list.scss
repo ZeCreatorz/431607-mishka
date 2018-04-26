@@ -3,19 +3,19 @@
 }
 
 .site-list__item {
-  font-size: $sitelistfontsize;
-  line-height: $sitelistlinehight;
-  font-weight: $sitelistweight;
+  font-size: $font-soneseven;
+  line-height: $linehtwofour;
+  font-weight: $boldw;
 
   color: $black;
 
-  border-bottom: 1px solid #ececec;
+  border-bottom: $onepx solid $lightgray;
 }
 
 .site-list__link {
-  font-size: $sitelistfontsize;
-  line-height: $sitelistlinehight;
-  font-weight: $sitelistweight;
+  font-size: $font-soneseven;
+  line-height: $linehtwofour;
+  font-weight: $boldw;
   color: $black;
 
   &:hover,

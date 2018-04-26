@@ -4,13 +4,13 @@
 
 
 .user-list__item {
-  border-bottom: 1px solid #ececec;
+  border-bottom: $onepx solid $lightgray;
 }
 
 .user-list__link {
-  font-size: $sitelistfontsize;
-  line-height: $sitelistlinehight;
-  font-weight: $sitelistweight;
+  font-size: $font-soneseven;
+  line-height: $linehtwofour;
+  font-weight: $boldw;
   color: $black;
 
   &:hover,

@@ -1,9 +1,9 @@
 .visually-hidden {
   position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: $onepx;
+  height: $onepx;
+  margin: $minuspx;
   padding: 0;
   border: 0;
 
