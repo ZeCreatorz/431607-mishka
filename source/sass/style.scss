@@ -2,7 +2,6 @@
 @import "variables.scss";
 @import "main.scss";
 @import "bem-blocks/page-header.scss";
-@import "bem-blocks/main-nav.scss";
 @import "bem-blocks/site-list.scss";
 @import "bem-blocks/user-list.scss";
 @import "bem-blocks/page-main.scss";
@@ -17,3 +16,7 @@
 @import "bem-blocks/catalog.scss";
 @import "bem-blocks/content.scss";
 @import "bem-blocks/form.scss";
+@import "bem-blocks/order.scss";
+@import "bem-blocks/field-radio.scss";
+@import "bem-blocks/field-checkbox.scss";
+@import "bem-blocks/field-text.scss";

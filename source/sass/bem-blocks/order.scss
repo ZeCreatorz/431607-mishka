@@ -1,0 +1,46 @@
+.order__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order__note {
+  font-size: $font-sonefour;
+  line-height: $linehonesix;
+}
+
+.order__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.order__legend {
+  font-size: $font-soneseven;
+  line-height: $linehonesix;
+  font-weight: $boldw;
+  text-transform: uppercase;
+  color: $interiorcolor;
+}
+
+.order__button {
+  font-size: $font-soneseven;
+  line-height: $linehonesix;
+  font-weight: $boldw;
+  color: $darkgray;
+
+  border: $twopx solid $darkgray;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: $twopx solid $darkgray;
+    background-color: $darkgray;
+  }
+
+  &:active {
+    color: $gray;
+  }
+}

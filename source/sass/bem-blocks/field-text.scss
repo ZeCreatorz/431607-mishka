@@ -1,0 +1,42 @@
+.field-text__label {
+  font-size: $font-soneseven;
+  line-height: $linehoneeight;
+  font-weight: $boldw;
+  color: $black;
+}
+
+.field-text__caption {
+  font-size: $font-soneseven;
+  line-height: $linehonesix;
+  font-weight: $boldw;
+  text-transform: uppercase;
+  color: $interiorcolor;
+}
+
+.field-text__value {
+  font-size: $font-soneseven;
+  line-height: $linehoneeight;
+  font-weight: $regw;
+  color: $darkgray;
+  border: none;
+  border-bottom: $twopx solid $black;
+
+  &:hover,
+  &:focus {
+    border-color: $borderhovfoc;
+  }
+}
+
+.field-text__area {
+  box-sizing: border-box;
+  font-size: $font-soneseven;
+  line-height: $linehoneeight;
+  font-weight: $regw;
+  box-sizing: border-box;
+  border: $twopx solid $black;
+
+  &:hover,
+  &:focus {
+    border-color: $borderhovfoc;
+  }
+}
