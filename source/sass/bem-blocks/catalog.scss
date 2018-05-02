@@ -1,7 +1,7 @@
 .catalog__title {
-  font-size: $font-twoseven;
-  line-height: $linehthreezero;
-  font-weight: $boldw;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
   color: $black;
   background-color: $graylighter;
 }
@@ -11,9 +11,9 @@
 }
 
 .catalog__item-link {
-  font-size: $font-soneseven;
-  line-height: $linehtwofour;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
   color: $black;
 
   &:hover,
@@ -28,16 +28,16 @@
 
 
 .catalog__item-text {
-  font-size: $font-sonethree;
-  line-height: $linehthreezero;
-  font-weight: $regw;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
   color: $darkgray;
 }
 
 .catalog__item-value {
-  font-size: $font-sonefive;
-  line-height: $linehtwofour;
-  font-weight: $boldw;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
   color: $black;
 }
 

@@ -1,42 +1,42 @@
 .contacts__title {
-  font-size: $font-soneeight;
-  line-height: $linehthreezero;
-  font-weight: $boldw;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
 
   color: $black;
 }
 
 .contacts__email {
   color: $darkgray;
-  border-bottom: $onepx solid $borderhovfoc;
+  border-bottom: 1px solid $borderhovfoc;
 
   &:hover,
   &:focus {
     color: $toyshovfocus;
-    border-bottom: $onepx solid $borderhovfoc;
+    border-bottom: 1px solid $borderhovfoc;
   }
 
   &:active {
     color: rgba($toyshovfocus, 0.3);
-    border-bottom: $onepx solid rgba($toyshovfocus, 0.3);
+    border-bottom: 1px solid rgba($toyshovfocus, 0.3);
   }
 }
 
 .contacts__write {
-  font-size: $font-soneeight;
-  line-height: $linehtwozero;
-  font-weight: $boldw;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
   text-transform: uppercase;
   color: $darkgray;
 
-  border: $twopx solid $darkgray;
+  border: 2px solid $darkgray;
   background-color: $white;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: $twopx solid $darkgray;
+    border: 2px solid $darkgray;
     background-color: $darkgray;
   }
 

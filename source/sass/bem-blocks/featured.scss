@@ -1,63 +1,63 @@
 .featured__title {
-  font-size: $font-stwofive;
-  line-height: $linehthreezero;
-  font-weight: $boldw;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
   color: $black;
 }
 
 
 .featured__weekly {
-  font-size: $font-soneseven;
-  line-height: $linehtwozero;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
   text-transform: uppercase;
   color: $weekly-color;
 }
 
 .featured__description {
-  font-size: $font-sonefive;
-  line-height: $linehtwofour;
-  font-weight: $regw;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
   color: $darkgray;
 }
 
 .featured__value {
-  font-size: $font-soneseven;
-  line-height: $linehtwofour;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
   color: $darkgray;
 
 }
 
 
 .featured__info {
-  font-size: $font-sonefive;
-  line-height: $linehtwozero;
-  font-weight: $regw;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
   color: $darkgray;
 }
 
 .featured__field {
-  font-size: $font-sonefive;
-  line-height: $linehtwozero;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: $regw;
   color: $darkgray;
 }
 
 .featured__order {
-  font-size: $font-soneseven;
-  line-height: $linehtwozero;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
   color: $darkgray;
 
-  border: $twopx solid $darkgray;
+  border: 2px solid $darkgray;
   background-color: $white;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: $twopx solid $darkgray;
+    border: 2px solid $darkgray;
     background-color: $darkgray;
   }
 

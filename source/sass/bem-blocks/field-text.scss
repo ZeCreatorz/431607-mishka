@@ -1,25 +1,25 @@
 .field-text__label {
-  font-size: $font-soneseven;
-  line-height: $linehoneeight;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
   color: $black;
 }
 
 .field-text__caption {
-  font-size: $font-soneseven;
-  line-height: $linehonesix;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
   text-transform: uppercase;
   color: $interiorcolor;
 }
 
 .field-text__value {
-  font-size: $font-soneseven;
-  line-height: $linehoneeight;
-  font-weight: $regw;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
   color: $darkgray;
   border: none;
-  border-bottom: $twopx solid $black;
+  border-bottom: 2px solid $black;
 
   &:hover,
   &:focus {
@@ -28,12 +28,11 @@
 }
 
 .field-text__area {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
   box-sizing: border-box;
-  font-size: $font-soneseven;
-  line-height: $linehoneeight;
-  font-weight: $regw;
-  box-sizing: border-box;
-  border: $twopx solid $black;
+  border: 2px solid $black;
 
   &:hover,
   &:focus {

@@ -1,16 +1,16 @@
 .modal__title {
-  font-size: $font-stwofive;
-  line-height: $linehthreezero;
-  font-weight: $boldw;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
   text-align: center;
   color: $black;
   text-transform: uppercase;
 }
 
 .modal__text {
-  font-size: $font-sonefive;
-  line-height: $linehthreezero;
-  font-weight: $regw;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
   color: $midgray;
 }
 
@@ -20,27 +20,27 @@
 }
 
 .modal__item {
-  font-size: $font-soneseven;
-  line-height: $linehonesix;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
   color: $darkgray;
 }
 
 .modal__button {
   font-family: $font-stack;
-  font-size: $font-soneseven;
-  line-height: $linehonesix;
-  font-weight: $boldw;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
   color: $white;
 
-  border: $twopx solid $interiorcolor;
+  border: 2px solid $interiorcolor;
   background-color: $interiorcolor;
 
   &:hover,
   &:focus {
     color: $white;
 
-    border: $twopx solid $interiorcolor;
+    border: 2px solid $interiorcolor;
     background-color: $interiorcolor;
 }
 
