@@ -1,0 +1,46 @@
+.order__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order__note {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.order__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.order__legend {
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $interiorcolor;
+}
+
+.order__button {
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  color: $darkgray;
+
+  border: 2px solid $darkgray;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: 2px solid $darkgray;
+    background-color: $darkgray;
+  }
+
+  &:active {
+    color: $gray;
+  }
+}

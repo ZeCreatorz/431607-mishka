@@ -1,0 +1,46 @@
+.contacts__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+
+  color: $black;
+}
+
+.contacts__email {
+  color: $darkgray;
+  border-bottom: 1px solid $borderhovfoc;
+
+  &:hover,
+  &:focus {
+    color: $toyshovfocus;
+    border-bottom: 1px solid $borderhovfoc;
+  }
+
+  &:active {
+    color: rgba($toyshovfocus, 0.3);
+    border-bottom: 1px solid rgba($toyshovfocus, 0.3);
+  }
+}
+
+.contacts__write {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $darkgray;
+
+  border: 2px solid $darkgray;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: 2px solid $darkgray;
+    background-color: $darkgray;
+  }
+
+  &:active {
+    color: $gray;
+  }
+}

@@ -1,0 +1,67 @@
+.featured__title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $black;
+}
+
+
+.featured__weekly {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $weekly-color;
+}
+
+.featured__description {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $darkgray;
+}
+
+.featured__value {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $darkgray;
+
+}
+
+
+.featured__info {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $darkgray;
+}
+
+.featured__field {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $darkgray;
+}
+
+.featured__order {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $darkgray;
+
+  border: 2px solid $darkgray;
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    border: 2px solid $darkgray;
+    background-color: $darkgray;
+  }
+
+  &:active {
+    color: $gray;
+  }
+}
